@@ -1,0 +1,12 @@
+#header {
+  font-family: "Times New Roman", Times, serif;
+}
+#header #span {
+  background-color: aqua;
+  width: 20%;
+}
+#header .text {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
