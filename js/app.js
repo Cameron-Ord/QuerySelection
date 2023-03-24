@@ -4,7 +4,7 @@ let ID_finder = document.querySelector(`#header`);
 
 ID_finder[`style`][`fontSize`] = `76px`;
 ID_finder[`style`][`fontWeight`] = `800`;
-ID_finder[`style`][`width`] = `1%`;
+ID_finder[`style`][`width`] = `80%`;
 
 let grab_class = document.querySelectorAll(`.text`);
 
