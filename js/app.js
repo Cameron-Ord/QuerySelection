@@ -8,25 +8,6 @@ ID_finder[`style`][`width`] = `1%`;
 
 let grab_class = document.querySelectorAll(`.text`);
 
-function hacked(hacktext){
-
-
-
-
-for(let counter = 0; counter < hacktext.length; counter = counter +1){
-
-if(hacktext === true){
-grab_class[counter][`innerHTML`] = `hacked` ;
-
-
-} 
-
-}
-
-
-}
-
-let insert_text = hacked(true);
 
 for(let counter = 0; counter < grab_class.length; counter = counter +1){
     grab_class[counter][`innerHTML`] = `hacked`;
@@ -37,3 +18,13 @@ for(let counter = 0; counter < grab_class.length; counter = counter +1){
 let ID_finder_Element = document.getElementById(`span`);
  
 let class_finder_element = document.getElementsByClassName(`text_2`);
+
+
+let my_text = document.querySelector(`#single_text`);
+my_text.insertAdjacentHTML(`beforebegin`, `<p>I AM BEFORE</p>`);
+my_text.insertAdjacentHTML(`afterbegin`, `<p>I AM AFTER</p>`);
+my_text.insertAdjacentHTML(`beforeend`, `<p>I AM BEFORERER</p>`);
+my_text.insertAdjacentHTML(`afterend`, `<p>I AM AFTERER</p>`);
+
+let image = document.getElementById(`image`);
+image.setAttribute(`src`, `https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png`);
