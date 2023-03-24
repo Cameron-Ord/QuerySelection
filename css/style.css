@@ -5,6 +5,9 @@
   background-color: aqua;
   width: 20%;
 }
+#header #span .text_2 {
+  color: beige;
+}
 #header .text {
   color: red;
 }
